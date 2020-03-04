@@ -1,0 +1,5 @@
+[run]
+include = realitycheck/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
